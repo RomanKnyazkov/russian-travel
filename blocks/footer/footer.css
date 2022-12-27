@@ -1,0 +1,11 @@
+.footer {
+  padding-top: 88px;
+  padding-bottom: 24px;
+  background-color:#2A2C2F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 48px;
+  padding-right: 48px;
+}

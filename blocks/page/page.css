@@ -1,7 +1,25 @@
 .page {
-  width: 1280px;
   font-family: 'Inter';
   color: #FFFFFF;
   margin: auto;
+  width: 1280px;
   
+}
+
+@media (min-width: 320px) {
+  .page {
+    padding: 0 16px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding: 0 24px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page {
+    padding: 0 48x 0;
+  }
 }

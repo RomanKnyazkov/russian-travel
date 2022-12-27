@@ -1,5 +1,5 @@
 .header__lang-link {
-text-decoration: underline;
+text-decoration: none;
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
@@ -8,4 +8,8 @@ width: 30px;
 height: 28px;
 color: #FFF;
 margin-left: 18px;
+}
+
+.header__lang-link:hover {
+  text-decoration: underline;
 }
