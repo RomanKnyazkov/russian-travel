@@ -4,24 +4,24 @@
 
 @media (min-width: 320px) {
   .intro {
-    padding: 99px 16px 0 16px;
+    padding: 99px 16px 0;    
   }
 }
 
 @media (min-width: 768px) {
   .intro {
-    padding: 99px 24px 0 24px;
+    padding: 99px 24px 0;
   }
 }
 
 @media (min-width: 1024px) {
   .intro {
-    padding: 99px 286px 0 48px;
+    padding: 99px 48px 0;
   }
 }
 
 @media (min-width: 1280px) {
   .intro {
-    padding: 99px 442px 0 148px;
+    padding: 99px 148px 0;
   }
 }

@@ -1,7 +1,5 @@
 .cover__backgraund {
   background-image: url(../../images/cover-trains.jpg);
-  width: 1184px;
-  Height: 740px;
-  position: absolute;
-  background-size: cover;
+  width: 1000px;
+  height: 700px;
 }

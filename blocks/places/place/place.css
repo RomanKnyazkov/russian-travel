@@ -1,4 +1,31 @@
 .place {
   display: grid;
-  gap: 26px 40px;
-  grid-template-columns: 460px 456px;
+}
+
+  @media (min-width: 320px) {
+    .place {
+      gap: 25px;
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .place {
+      gap: 25px 28px;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .place {
+      gap: 27px 32px;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .place {
+      gap: 26px 40px;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
