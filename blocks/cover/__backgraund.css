@@ -10,15 +10,3 @@
 .cover:hover .cover__backgraund{
     opacity:0.3;
 }
-
-/* display: flex;
-background-image: url(../../images/cover-trains.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-max-width: 1184px;
-min-height: 740px;
-text-decoration: none;
-} */
