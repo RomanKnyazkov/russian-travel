@@ -1,6 +1,8 @@
 .lead {
-  margin: 0 auto;
   background-color:#2A2C2F;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 984px;
 }
 
 @media (min-width: 768px) {

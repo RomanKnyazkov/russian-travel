@@ -1,7 +1,5 @@
-.cover__title {
-margin: 0;
-width: 560px;
-height: 152px;
+/* .cover__title {
+margin: 0 auto;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 900;
@@ -10,4 +8,40 @@ line-height: 76px;
 text-align: center;
 color: #FFFFFF;
 z-index: 2;
+width: 560px;
+position: absolute;
+text-align: center;
+} */
+
+.cover__title {
+  margin: 0;
+  padding-top: 274px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 78px;
+  color: #FFFDFD;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width:1024px) and (max-width:1280px) {
+  .cover__title {
+      padding-top:211px;
+  }
+}
+@media (min-width:768px) and (max-width:1024px) {
+  .cover__title {
+      width: 500px;
+      padding-top:100px;
+  }
+}
+@media (min-width:320px) and (max-width:768px) {
+  .cover__title {
+      padding-top:70px;
+      width:250px;
+      font-size: 32px;
+      line-height: 35px;
+  }
 }
