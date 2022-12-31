@@ -5,3 +5,9 @@
   font-size: 14px;
   line-height: 16px;
 }
+
+@media (max-width: 768px) {
+  .footer__copyright {
+    padding-top: 48px;
+  }
+}
