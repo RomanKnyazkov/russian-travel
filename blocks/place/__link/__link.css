@@ -1,4 +1,4 @@
-.place__website__link {
+.place__link {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -7,6 +7,6 @@
   text-decoration-line: none;
 }
 
-  .place__website__link:hover {
+  .place__link:hover {
     text-decoration-line: underline;
   }
