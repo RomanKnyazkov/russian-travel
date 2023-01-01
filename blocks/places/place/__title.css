@@ -3,7 +3,6 @@ margin: 0;
 font-style: normal;
 }
 
-
 @media (min-width: 1024px) {
   .place__title {
     grid-row-start: 1;
