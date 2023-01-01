@@ -1,11 +1,7 @@
 .footer {
-  background-color:#2A2C2F;
   display: flex;
   max-width: 1184px;
-
-
 }
-
 
 @media (min-width: 1280px) {
   .footer {

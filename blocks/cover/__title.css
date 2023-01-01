@@ -8,13 +8,14 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
+  max-width: 700px;
 }
 
 @media (min-width: 1280px) {
   .cover__title {
     padding-top: 245px;
   }
-  }
+}
 
 @media (max-width: 1280px) {
   .cover__title {
@@ -34,5 +35,6 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
+    max-width: 250px;
   }
 }
