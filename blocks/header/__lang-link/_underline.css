@@ -1,3 +1,7 @@
+.header__lang-link_undeline {
+  text-decoration: none;
+}
+
 .header__lang-link_undeline:hover {
   text-decoration: underline;
 }
