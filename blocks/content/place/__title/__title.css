@@ -3,7 +3,7 @@ margin: 0;
 font-style: normal;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1022px) {
   .place__title {
     grid-row-start: 1;
     grid-row-end: 1;
@@ -14,7 +14,7 @@ font-style: normal;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1022px) {
   .place__title {
     grid-row-start: 1;
     grid-row-end: 1;

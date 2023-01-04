@@ -2,27 +2,27 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1278px) {
   .lead {
     padding: 56px 148px 0;
 
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1278px) {
   .lead {
     padding: 58px 48px 0;
 
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1022px) {
   .lead{
     padding: 48px 0 0;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
   .lead {
     padding: 48px 0 0;
   }

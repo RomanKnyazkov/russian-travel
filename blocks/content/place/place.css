@@ -2,28 +2,28 @@
   display: grid;
 }
 
-  @media (max-width: 768px) {
+  @media (max-width: 766px) {
     .place {
       gap: 25px;
       grid-template-columns: 1fr;
     }
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 766px) {
     .place {
       gap: 25px 28px;
       grid-template-columns: 1fr 1fr;
     }
   }
   
-  @media (min-width: 1024px) {
+  @media (min-width: 1022px) {
     .place {
       gap: 27px 32px;
       grid-template-columns: 1fr 1fr;
     }
   }
   
-  @media (min-width: 1280px) {
+  @media (min-width: 1278px) {
     .place {
       gap: 26px 40px;
       grid-template-columns: 1fr 1fr;

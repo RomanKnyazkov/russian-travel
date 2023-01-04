@@ -3,7 +3,7 @@ margin: 0;
 font-style: normal;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 766px) {
   .intro__title {
     font-weight: 900;
     font-size: 54px;
@@ -11,7 +11,7 @@ font-style: normal;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
   .intro__title {
     font-weight: 900;
     font-size: 32px;
