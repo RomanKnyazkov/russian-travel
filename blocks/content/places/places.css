@@ -5,28 +5,28 @@ justify-content: center;
 align-items: center;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1278px) {
   .places {
     padding: 92px 148px 0;
     gap: 80px;
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1278px) {
   .places {
     padding: 92px 48px 0;
     gap: 80px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1022px) {
   .places {
     padding: 88px 24px 0;
     gap: 73px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
   .places{
     padding: 64px 0px 0;
     gap: 50px;

@@ -6,7 +6,7 @@ color: #FFF;
 margin-left: 18px;
 }
 
-@media (min-width:768px) {
+@media (min-width:766px) {
   .header__lang-link {
     font-weight: 400;
     font-size: 24px;
@@ -14,7 +14,7 @@ margin-left: 18px;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:766px) {
   .header__lang-link {
     font-weight: 400;
     font-size: 18px;
