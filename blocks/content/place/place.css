@@ -12,14 +12,14 @@
   @media (min-width: 766px) {
     .place {
       gap: 0 28px;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: fit-content(340px) 1fr;
     }
   }
   
   @media (min-width: 1022px) {
     .place {
       gap: 0 32px;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: fit-content(440px) 1fr;
     }
   }
   
