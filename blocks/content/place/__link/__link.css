@@ -1,10 +1,12 @@
 .place__link {
+  display: block;
   font-style: normal;
+  color: #FFF;
+  text-decoration-line: none;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #FFFFFF;
-  text-decoration-line: none;
+  padding-top: 12px;
 }
 
   .place__link:hover {

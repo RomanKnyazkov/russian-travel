@@ -4,6 +4,7 @@
   justify-content: space-between;
   text-align: end;
   background-color:#2A2C2F;
+  align-items: flex-end;
 }
 
 @media (min-width: 1278px) {
