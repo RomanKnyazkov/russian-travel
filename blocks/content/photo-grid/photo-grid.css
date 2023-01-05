@@ -35,6 +35,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 16px;
-    padding: 85px 48px 0;
+    padding: 82px 48px 0;
   }
 }
