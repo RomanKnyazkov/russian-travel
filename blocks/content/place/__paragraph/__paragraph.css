@@ -19,7 +19,6 @@ font-style: normal;
   }
 }
 
-
 @media (min-width: 766px) {
   .place__paragraph {
     font-weight: 400;
@@ -29,14 +28,6 @@ font-style: normal;
 }
 
 @media (min-width: 1022px) {
-  .place__paragraph {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-  }
-}
-
-@media (min-width: 1278px) {
   .place__paragraph {
     font-weight: 400;
     font-size: 18px;
