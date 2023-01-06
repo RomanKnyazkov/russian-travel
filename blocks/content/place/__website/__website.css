@@ -17,15 +17,3 @@ line-height: 22px;
     margin-bottom: 48px;
   }
 }
-
-@media (min-width: 1022px) {
-  .place__website {
-    margin-bottom: 48px;
-  }
-}
-
-@media (min-width: 1278px) {
-  .place__website {
-    margin-bottom: 48px;
-  }
-}

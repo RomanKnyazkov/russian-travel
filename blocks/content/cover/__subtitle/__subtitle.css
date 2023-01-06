@@ -6,12 +6,12 @@ position: relative;
 margin-left: auto;
 margin-right: auto;
 color: white;
+font-weight: 400;
 }
 
 @media (min-width: 766px) {
   .cover__subtitle {
     margin-top: 32px;
-    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     max-width: 360px;
@@ -21,7 +21,6 @@ color: white;
 @media (max-width: 766px) {
   .cover__subtitle {
     margin-top: 16px;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     max-width: 280px;

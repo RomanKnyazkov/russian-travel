@@ -1,8 +1,13 @@
 .place__image {
-  grid-row-start: 2;
-  grid-row-end: 4;
   max-width: 100%;
   object-fit: cover;
+  }
+
+  @media (min-width: 766px) {
+    .place__image {
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
   }
 
   @media (max-width: 766px) {

@@ -17,14 +17,7 @@
 }
 
 @media (max-width: 1022px) {
-  .lead{
-    padding: 48px 0 0;
-  }
-}
-
-@media (max-width: 766px) {
   .lead {
     padding: 48px 0 0;
   }
 }
-
