@@ -7,8 +7,8 @@
 }
 
 .footer__link:hover {
-  text-decoration: underline;
-    }
+  opacity: 0.3;
+}
     
 @media (min-width: 766px) {
   .footer {
@@ -19,6 +19,7 @@
 
 @media (max-width: 766px) {
   .footer__link {
+    margin: 0;
     font-size: 24px;
     line-height: 24px;
     display: block;
@@ -28,4 +29,8 @@
   .footer__link:first-of-type {
     padding-top: 0;
   }
+}
+
+.footer__link:last-of-type {
+  margin: 0;
 }
