@@ -1,6 +1,8 @@
 .place__url-heading {
 font-style: normal;
+letter-spacing: 0.2em;
 color: #AAAAAA;
+margin: 0;
 }
 
 @media (max-width: 1022px) {
