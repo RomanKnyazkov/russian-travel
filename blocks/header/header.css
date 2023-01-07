@@ -5,15 +5,10 @@
   text-align: end;
   background-color:#2A2C2F;
   align-items: flex-end;
+
 }
 
-@media (min-width: 1278px) {
-  .header {
-    padding: 28px 48px 0;
-  }
-}
-
-@media (max-width: 1278px) {
+@media (min-width: 1022px) {
   .header {
     padding: 28px 48px 0;
   }
