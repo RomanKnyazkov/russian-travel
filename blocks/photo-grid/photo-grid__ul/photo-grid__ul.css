@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-@media (min-width: 318px) {
+@media (max-width: 766px) {
   .photo-grid__ul {
     grid-template-columns: 1fr;
     gap: 12px;
