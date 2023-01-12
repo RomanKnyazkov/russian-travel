@@ -7,7 +7,11 @@
 }
 
 .footer__link:hover {
-  opacity: 0.3;
+  opacity: 0.8;
+}
+
+.footer__link:last-of-type {
+  margin: 0;
 }
     
 @media (min-width: 766px) {
@@ -29,8 +33,4 @@
   .footer__link:first-of-type {
     padding-top: 0;
   }
-}
-
-.footer__link:last-of-type {
-  margin: 0;
 }

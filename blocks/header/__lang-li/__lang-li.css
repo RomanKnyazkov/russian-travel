@@ -1,0 +1,24 @@
+.header__lang-li {
+font-style: normal;
+font-weight: 400;
+list-style-type: none;
+text-decoration: none;
+}
+
+.header__lang-li:hover {
+opacity: 0.8;
+}
+
+@media (min-width: 766px) {
+  .header__lang-li {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 766px) {
+  .header__lang-li {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

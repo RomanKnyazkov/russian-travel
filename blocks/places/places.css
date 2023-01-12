@@ -3,19 +3,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 80px;
 }
 
 @media (min-width: 1278px) {
   .places {
     padding: 85px 148px 0;
-    gap: 80px;
   }
 }
 
 @media (max-width: 1278px) {
   .places {
     padding: 92px 48px 0;
-    gap: 80px;
   }
 }
 

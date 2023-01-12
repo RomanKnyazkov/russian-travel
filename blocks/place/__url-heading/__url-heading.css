@@ -1,22 +1,20 @@
 .place__url-heading {
 font-style: normal;
-letter-spacing: 0.2em;
-color: #AAAAAA;
+color: #AAA;
 margin: 0;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.2em;
 }
 
 @media (max-width: 1022px) {
   .place__url-heading {
-    font-weight: 400;
-    font-size: 12px;
     line-height: 12px;
   }
 }
 
 @media (min-width: 1022px) {
   .place__url-heading {
-    font-weight: 400;
-    font-size: 12px;
     line-height: 170%;
   }
 }
