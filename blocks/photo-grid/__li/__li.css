@@ -1,4 +1,30 @@
 .photo-grid__li {
   list-style-type: none;
   width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 318px) {
+  .photo-grid__li {
+    height: calc((100vw - 32px)*216/288);
+  }
+}
+
+@media (min-width: 766px) {
+  .photo-grid__li {
+    height: calc((100vw - 48px - 16px)/2*264/352);
+  }
+}
+
+@media (min-width: 1022px) {
+  .photo-grid__li {
+    height: calc((100vw - 96px - 28px)/3*225/300);
+  }
+}
+
+@media (min-width: 1278px) {
+  .photo-grid__li {
+    height: calc((100vw - 96px - 48px)/4*213/284);
+  }
 }
