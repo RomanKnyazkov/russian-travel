@@ -1,10 +1,8 @@
 .place__paragraph {
 display: block;
 margin-top: 0;
-margin-bottom: 22px;
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
 line-height: 163%;
 }
 
@@ -12,15 +10,22 @@ line-height: 163%;
   margin-bottom: 0;
 }
 
-@media (min-width: 766px) {
+@media (min-width: 1022px) {
   .place__paragraph {
     font-size: 18px;
+    margin-bottom: 27px;
+  }
+}
+
+@media (max-width: 1022px) {
+  .place__paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
   }
 }
 
 @media (max-width: 766px) {
   .place__paragraph {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0 16px;
   }
 }

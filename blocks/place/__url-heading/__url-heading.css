@@ -7,14 +7,14 @@ font-size: 12px;
 letter-spacing: 0.2em;
 }
 
-@media (max-width: 1022px) {
-  .place__url-heading {
-    line-height: 12px;
-  }
-}
-
 @media (min-width: 1022px) {
   .place__url-heading {
     line-height: 170%;
+  }
+}
+
+@media (max-width: 1022px) {
+  .place__url-heading {
+    line-height: 12px;
   }
 }

@@ -26,8 +26,8 @@
 }
 
 @media (max-width: 766px) {
-  .places{
-    padding: 64px 0px 0;
+  .places {
+    padding: 64px 0 0;
     gap: 50px;
   }
 }
