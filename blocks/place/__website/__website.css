@@ -6,14 +6,14 @@ font-size: 18px;
 line-height: 22px;
 }
 
-@media (max-width: 766px) {
-  .place__website {
-    padding: 0 16px;
-  }
-}
-
 @media (min-width: 766px) {
   .place__website {
     margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 766px) {
+  .place__website {
+    padding: 0 16px;
   }
 }
